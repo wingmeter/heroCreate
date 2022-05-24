@@ -1,0 +1,49 @@
+{
+  "heroes": [
+    {
+      "id": "663070d6-80be-430e-af1c-c121a58701ff",
+      "name": "Nurbek-Man",
+      "description": "Спать и кушать",
+      "element": "fire"
+    },
+    {
+      "id": "8b0474ba-6528-4dcd-81c4-65287b204d5c",
+      "name": "Nurs",
+      "description": "Coding",
+      "element": "water"
+    },
+    {
+      "id": "a2bd178b-1a7d-4336-ac76-c418755bc835",
+      "name": "Орозали ",
+      "description": "Играть футбол",
+      "element": "wind"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}

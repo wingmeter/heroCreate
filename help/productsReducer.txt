@@ -1,0 +1,19 @@
+const intialState = {
+  products: [],
+};
+
+export const productsReducer = (state = intialState, { type, payload }) => {
+  switch (type) {
+    case SET_PRODUCTS:
+      return { ...state, products: payload };
+    case ADD_PRODUCT:
+      return { ...state, products: [...state.products, payload] };
+    case REMOVE_SELECTED_PRODUCT:
+      return {
+        ...state,
+        products: state.products.filter((el) => el.id !== payload),
+      };
+    default:
+      return state;
+  }
+};

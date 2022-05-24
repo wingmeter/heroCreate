@@ -1,0 +1,39 @@
+export const removeSelectedProduct = (id) => {
+  return {
+    type: REMOVE_SELECTED_PRODUCT,
+    payload: id,
+  };
+};
+export const removeProduct = (id) => {
+  return async (dispatch) => {
+    dispatch(removeSelectedProduct(id));
+    try {
+      console.log(id); // this is for test, and i see in console that proper id is printed
+      await axios.delete(`https://fakestoreapi.com/products/${id}`);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+};
+
+
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Первый герой",
+            "description": "Первый герой в рейтинге!",
+            "element": "fire"
+        },
+        {
+            "id": 2,
+            "name": "Неизвестный герой",
+            "description": "Скрывающийся в тени",
+            "element": "wind"
+        },
+        {
+            "id": 3,
+            "name": "Морской герой",
+            "description": "Как аквамен, но не из DC",
+            "element": "water"
+        }
+    ],
