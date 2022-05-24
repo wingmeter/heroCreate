@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/heroCreate/static/css/main.901de6ce.chunk.css",
+    "main.js": "/heroCreate/static/js/main.4e81b927.chunk.js",
+    "main.js.map": "/heroCreate/static/js/main.4e81b927.chunk.js.map",
+    "runtime-main.js": "/heroCreate/static/js/runtime-main.edc7a34a.js",
+    "runtime-main.js.map": "/heroCreate/static/js/runtime-main.edc7a34a.js.map",
+    "static/css/2.c62e3214.chunk.css": "/heroCreate/static/css/2.c62e3214.chunk.css",
+    "static/js/2.b74ac412.chunk.js": "/heroCreate/static/js/2.b74ac412.chunk.js",
+    "static/js/2.b74ac412.chunk.js.map": "/heroCreate/static/js/2.b74ac412.chunk.js.map",
+    "index.html": "/heroCreate/index.html",
+    "static/css/2.c62e3214.chunk.css.map": "/heroCreate/static/css/2.c62e3214.chunk.css.map",
+    "static/css/main.901de6ce.chunk.css.map": "/heroCreate/static/css/main.901de6ce.chunk.css.map",
+    "static/js/2.b74ac412.chunk.js.LICENSE.txt": "/heroCreate/static/js/2.b74ac412.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/heroCreate/static/media/hero_bg.0540b794.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edc7a34a.js",
+    "static/css/2.c62e3214.chunk.css",
+    "static/js/2.b74ac412.chunk.js",
+    "static/css/main.901de6ce.chunk.css",
+    "static/js/main.4e81b927.chunk.js"
+  ]
+}
